@@ -30,8 +30,8 @@ export class UserEditComponent implements OnInit {
   list
   
 
-  values = ['Happy', 'Sad', 'Success', 'Failure', 'Hurt', 'Other'];
-  selected = 'Happy'
+  values = ['Tech', 'Strategy', 'Analytics', 'Marketing', 'Insights', 'Other'];
+  selected = 'Tech'
   imageSrc: string | ArrayBuffer;
   downloadURL: string;
   selectedFile: any;

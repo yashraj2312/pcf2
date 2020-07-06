@@ -11,7 +11,7 @@
     line-height: 48px;
     font-size: 40px;
     font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
-    color: rgba(0, 0, 0, 0.84);
+    color: #252627;
     font-weight: 400;
 }
 
@@ -53,12 +53,14 @@
 figcaption {
     text-align: center;
     padding: 15px;
+    color: #dcdee0;
 }
 
 .desc {
     margin-top: 2em;
     font-size: 21px;
     font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #252627;
 }
 
 .heart {

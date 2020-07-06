@@ -67,7 +67,7 @@
     </div> -->
     <div class="stage " (click)="Like() ">
         <div class="heart " [ngClass]="likeStatus? 'is-active': '' ">
-            <span>Heart {{count}}</span></div>
+            <span>Like {{count}}</span></div>
     </div>
     <p class="desc ">{{ unauthpost.desc }}</p>
     <p>{{count}}</p>
@@ -150,7 +150,7 @@
 
 <hr>
 
-<form class="create-form " [formGroup]="CommentForm" novalidate (ngSubmit)="onSubmit(CommentForm.value) ">
+<!--<form class="create-form " [formGroup]="CommentForm" novalidate (ngSubmit)="onSubmit(CommentForm.value) ">
     <div class="form-group ">
         <label for="comment ">Leave Your Comment Here:</label>
         <textarea class="form-control " rows="5 " id="comment " formControlName="comment"></textarea>
@@ -161,7 +161,7 @@
             <button class="btn btn-primary submit-button " color="primary " type="submit " [disabled]="!CommentForm.valid ">Post your comment</button>
         </div>
     </div>
-</form>
+</form>-->
 
 <hr>
 
