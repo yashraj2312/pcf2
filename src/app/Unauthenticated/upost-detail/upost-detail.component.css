@@ -78,6 +78,7 @@ figcaption {
     transition-duration: 0s;
 }
 
+
 .heart.is-active {
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
