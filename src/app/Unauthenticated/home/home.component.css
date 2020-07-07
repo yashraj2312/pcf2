@@ -41,7 +41,7 @@ h3.title {
 @media screen and (max-width:767px) {
     .img-col img,
     .card.row {
-        min-height: 135px;
+        min-height: 134px;
     }
 }
 
