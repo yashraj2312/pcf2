@@ -21,7 +21,7 @@ export class AppComponent  implements OnInit {
   constructor(private authService: AuthService,private acrud:ACrudService) {}
   title = 'write-your-heart-out';
 
-
+//
   ngOnInit() {
     this.isloading=true
     this.authService.autoLogin();
