@@ -10,7 +10,7 @@ import { ProfileComponent } from './user/profile/profile.component';
 import { ViewProfileComponent } from './user/view-profile/view-profile.component';
 import { ViewOnlyPublicPostComponent } from './user/view-only-public-post/view-only-public-post.component';
 import { AuthGuard } from './Authentication/shared/auth-guard.service';
-
+//
 
 
 const routes: Routes = [
