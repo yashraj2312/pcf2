@@ -19,7 +19,7 @@ export class AppComponent  implements OnInit {
 
   isloading:boolean=false
   constructor(private authService: AuthService,private acrud:ACrudService) {}
-  title = 'write-your-heart-out';
+  title = 'ovsapp';
 
 //
   ngOnInit() {
