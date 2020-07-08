@@ -11,7 +11,7 @@ The admin after signup has to create profile post which they can create posts on
 
 3. Install Dependencies by typing `npm install`
 
-4 Run  the application by typing `ng serve -o`
+4. Run  the application by typing `ng serve -o`
 
 
 
