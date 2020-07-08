@@ -40,7 +40,7 @@
                     <label for="sel1">Category list:</label>
                     <select class="form-control" formControlName="category" #t (change)="onChange(t.value)">
                     <option *ngFor="let value of values" >{{value}} </option>
-                </select>
+                </select><!---->
 
                     <ng-container *ngFor="let validation of validation_messages.category">
                         <div class="help-block has-error" *ngIf="exampleForm.get('category').hasError(validation.type) && (exampleForm.get('category').dirty || exampleForm.get('category').touched)">{{validation.message}}</div>
