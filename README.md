@@ -13,5 +13,6 @@ The admin after signup has to create profile post which they can create posts on
 
 4. Run  the application by typing `ng serve -o`
 
+5. Application will start in `localhost:4200` if it doesn't open automatically then go to browser and type `localhost:4200` and hit enter.
 
 
