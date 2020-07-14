@@ -33,3 +33,4 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('write-your-heart-out1 app is running!');
   });
 });
+//
