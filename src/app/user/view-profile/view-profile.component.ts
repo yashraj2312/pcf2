@@ -11,7 +11,7 @@ import { AuthService } from 'src/app/Authentication/shared/auth.service';
   styleUrls: ['./view-profile.component.css']
 })
 export class ViewProfileComponent implements OnInit {
-
+//
   unameParam: string
   ProfileData: any
   username: string;
